@@ -73,7 +73,7 @@ This action is a recommended deployment option. You can also use [our public Git
 - `options`: Card options as a query string (`key=value&...`) or JSON. If `username` is omitted, the action uses the repository owner.
 - `path`: Output path for the SVG file. Defaults to `profile/<card>.svg`.
 - `token`: GitHub token (PAT or `GITHUB_TOKEN`). For private repo stats, use a [PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) with `repo` and `read:user` scopes. For any gist, use a PAT with `gist` scope.
-- `core_version`: Version of [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended) to use internally. When omitted, the action uses the latest 2.x.x version.
+- The GitHub Stats Extended core is fixed by `pnpm-lock.yaml`; this fork does not download a runtime-selected renderer version.
 - `fail_on_error`: Fail the action when data fetching fails (e.g. a GitHub API rate limit) instead of writing the "Something went wrong" error card.\
   Defaults to `false` for backwards compatibility.
 
@@ -128,15 +128,7 @@ with:
   token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-Version-pinned example:
-
-```yaml
-with:
-  card: stats
-  options: username=octocat&show_icons=true
-  core_version: 2.1.3
-  token: ${{ secrets.GITHUB_TOKEN }}
-```
+The renderer version is intentionally controlled by this fork rather than by workflow input.
 
 ## Notes
 
