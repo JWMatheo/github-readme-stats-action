@@ -12,8 +12,8 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1
       '@stats-organization/github-readme-stats-core':
-        specifier: 2.1.5
-        version: 2.1.5(debug@4.4.3)
+        specifier: file:vendor/stats-organization-github-readme-stats-core-2.1.5.tgz
+        version: file:vendor/stats-organization-github-readme-stats-core-2.1.5.tgz(debug@4.4.3)
     devDependencies:
       husky:
         specifier: 9.1.7
@@ -407,8 +407,9 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@stats-organization/github-readme-stats-core@2.1.5':
-    resolution: {integrity: sha512-LkOGpvD9XOP3MK0kOX3tFOW0WJa8tJweM6/ISsdd16AXipv2idk754y7GtDeYVQfBFjT9jpcCeiJiznEVl23NA==}
+  '@stats-organization/github-readme-stats-core@file:vendor/stats-organization-github-readme-stats-core-2.1.5.tgz':
+    resolution: {integrity: sha512-2sFoPBSe563rRgyNTPQrEuw9wDmaZiw6qRVUmDPMPBFGBJ6INA2Vr+8foOrGCQu+SVq7X5kcWG589aj/Mr+GIg==, tarball: file:vendor/stats-organization-github-readme-stats-core-2.1.5.tgz}
+    version: 2.1.5
     engines: {node: 24.x}
 
   '@tybys/wasm-util@0.10.3':
@@ -1160,7 +1161,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@stats-organization/github-readme-stats-core@2.1.5(debug@4.4.3)':
+  '@stats-organization/github-readme-stats-core@file:vendor/stats-organization-github-readme-stats-core-2.1.5.tgz(debug@4.4.3)':
     dependencies:
       axios: 1.19.0(debug@4.4.3)
       emoji-name-map: 2.0.3
