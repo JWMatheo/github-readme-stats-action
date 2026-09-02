@@ -408,7 +408,7 @@ packages:
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
   '@stats-organization/github-readme-stats-core@file:vendor/stats-organization-github-readme-stats-core-2.1.5.tgz':
-    resolution: {integrity: sha512-Fd4KFes3g5KkIYdl1u69b5ehXBE2o/eBcJy32QCShsUBlbz46r0m88w6bLBl2waEKO3jTKu4FXnB66zXQl7Rsw==, tarball: file:vendor/stats-organization-github-readme-stats-core-2.1.5.tgz}
+    resolution: {integrity: sha512-vviElaC3OumgzPtUWoXNYXWb8AJzY7MMfV20oQkiepz7HSleORiN2cJin0NGGycgfrbkwJqISWS+FYFbQKugaw==, tarball: file:vendor/stats-organization-github-readme-stats-core-2.1.5.tgz}
     version: 2.1.5
     engines: {node: 24.x}
 
