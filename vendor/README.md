@@ -1,10 +1,10 @@
 # Vendored stats core
 
 `stats-organization-github-readme-stats-core-2.1.5.tgz` was built from
-[`JWMatheo/github-stats-extended@33a9c63c`](https://github.com/JWMatheo/github-stats-extended/commit/33a9c63ca6966ad8a14bb5faeca1a99891e2dd53).
+[`JWMatheo/github-stats-extended@1d2aebd`](https://github.com/JWMatheo/github-stats-extended/commit/1d2aebd94d64da0ba9f1f3a021a29e9bcf06e994).
 
 SHA-256:
-`0696328652b331e2254762dfe0933118bed89b053ff93eaf1fc86e0e85290e9f`
+`bc1eda5e9690227328a9adcdd9a9e90d74b994247aa0473c0c90bad6592f60ea`
 
 The package contains both the compiled renderer and its source. It is installed
 from this repository by the lockfile; the Action does not select or download a
