@@ -73,7 +73,7 @@ This action is a recommended deployment option. You can also use [our public Git
 - `options`: Card options as a query string (`key=value&...`) or JSON. If `username` is omitted, the action uses the repository owner.
 - `path`: Output path for the SVG file. Defaults to `profile/<card>.svg`.
 - `token`: GitHub token (PAT or `GITHUB_TOKEN`). For private repo stats, use a [PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) with `repo` and `read:user` scopes. For any gist, use a PAT with `gist` scope.
-- The GitHub Stats Extended core is vendored in this repository and fixed by `pnpm-lock.yaml`; this fork does not download a renderer at runtime. The vendored package was built from [`JWMatheo/github-stats-extended@1d2aebd`](https://github.com/JWMatheo/github-stats-extended/commit/1d2aebd94d64da0ba9f1f3a021a29e9bcf06e994).
+- The GitHub Stats Extended core is vendored in this repository and fixed by `pnpm-lock.yaml`; this fork does not download a renderer at runtime. The vendored package was built from [`JWMatheo/github-stats-extended@4368865`](https://github.com/JWMatheo/github-stats-extended/commit/4368865eb4d58aa66f2c9f2f14e2ebc0e0e8d3c9).
 - `fail_on_error`: Fail the action when data fetching fails (e.g. a GitHub API rate limit) instead of writing the "Something went wrong" error card.\
   Defaults to `false` for backwards compatibility.
 
